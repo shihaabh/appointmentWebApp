@@ -84,11 +84,11 @@ body {
   }
   /* title image */
   .title-img {
-    width: 80%;
-    height: 120%;
+    width: 90%;
+    /* height: 120%; */
     transform: rotate(0deg);
     position: absolute;
-    right: 20%;
+    right: 10%;
   }
   
   .listed-features {
@@ -123,16 +123,23 @@ body {
   #press {
     background-color: var(--secondary);
   }
+
   
   .press-logo {
-    width: 15%;
+    width: 10%;
     margin-bottom: 20px;
     padding: 20px 20px 50px;
   }
   
+  .press-logoz {
+    width: 15%;
+    margin-bottom: 20px;
+    padding: 20px 20px 50px;
+  }
+
   /* Pricing Section */
   #pricing {
-    padding: 100px 370px;
+    padding: 100px 420px;
   }
   .price-text {
      font-size: 3rem;
@@ -148,6 +155,7 @@ body {
   
   .social-icons {
     margin: 20px 10px;
+    color: #120E43;
   }
   
   .social-icons:hover {
@@ -160,6 +168,7 @@ body {
     }
   
     .title-img {
+      height: 110%;
       position: static;
       transform: rotate(0);
     }
